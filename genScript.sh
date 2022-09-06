@@ -7,11 +7,11 @@ if [ $# -eq 1 ]; then
         echo -n 'Overwrite (y/n): '
         read input
     fi
-    if [[ `echo $input | grep -i Y` ]]; then
-        commentRows=$((`grep -n 'class Solution' description | cut -d ':' -f1` - 2))
+    if [ ! -f probs/$name.py ] || [[ `echo $input | grep -i Y` ]]; then
+        commentRows=$((`grep -n 'class Solution' description.txt | cut -d ':' -f1` - 2))
         
         # copy file > comment > add default
-        cp description tmp
+        cp description.txt tmp
         sed -i "1,${commentRows}s/^/# /" tmp
         echo -ne "\n        pass\n\nif __name__ == '__main__':\n    pass" >> tmp
 
