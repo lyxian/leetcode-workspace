@@ -3,7 +3,7 @@
 Features :
 
 - write problem class
-- generate test script easily
+- generate test script easily (given template)
 
 ```
 Directory
@@ -17,9 +17,10 @@ Directory
 ```
 
 ```
-Done
-├─ 6. Zigzag Conversion
-└─ .
+Done (recent -> first)
+├─ ..
+├─ 2337. Move Pieces to Obtain a String
+└─ 6. Zigzag Conversion
 ```
 
 ##Packages (list required packages & run .scripts/python-pip.sh)
