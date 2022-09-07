@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 1324. Print Words Vertically
 ├─ 22. Generate Parentheses
 ├─ 20. Valid Parentheses
 ├─ 2337. Move Pieces to Obtain a String
