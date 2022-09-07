@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 22. Generate Parentheses
 ├─ 20. Valid Parentheses
 ├─ 2337. Move Pieces to Obtain a String
 └─ 6. Zigzag Conversion
