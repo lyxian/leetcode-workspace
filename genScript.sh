@@ -13,6 +13,10 @@ if [ $# -eq 1 ]; then
         # copy file > comment > add default
         cp description.txt tmp
         sed -i "1,${commentRows}s/^/# /" tmp
+        if [[ `grep 'List\[' description.txt` ]]; then
+            listRow=$(($commentRows + 2))
+            sed -i "${listRow}i from typing import List" tmp
+        fi
         echo -ne "\n        pass\n\nif __name__ == '__main__':\n    pass" >> tmp
 
         mv tmp probs/$name.py
