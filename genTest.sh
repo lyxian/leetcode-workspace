@@ -7,8 +7,8 @@ if [ $# -eq 1 ]; then
     else
         # Find in script
         probs="probs."`echo $filename | cut -d . -f1`
-        ARGUMENTS=`grep "def" probs/$filename | sed 's/.*(\(.*\)).*/\1/' | tr , '\n' | grep ':' | cut -d ':' -f 1 | xargs | sed 's/ /, /'`
-        FUNCTION=`grep "def" probs/$filename | sed 's/.*def \(.*\)(.*/\1/'`
+        ARGUMENTS=`grep "^    def" probs/$filename | sed 's/.*(\(.*\)).*/\1/' | tr , '\n' | grep ':' | cut -d ':' -f 1 | xargs | sed 's/ /, /'`
+        FUNCTION=`grep "^    def" probs/$filename | sed 's/.*def \(.*\)(.*/\1/'`
 
         # Replace script
         sed "s/probs/$probs/" tests/template.py > tmp
