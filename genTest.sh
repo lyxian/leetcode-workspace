@@ -16,6 +16,13 @@ if [ $# -eq 1 ]; then
         sed "s/FUNCTION/$FUNCTION/" tmp1 > tests/test_$filename
         rm tmp tmp1
     fi
+elif [ $# -eq 0 ]; then
+    if [[ `git status | grep "probs/.*\.py"` ]]; then
+        echo "Creating test files for all modified python scripts in probs/ .."
+        git status | grep "probs/.*\.py" | cut -d / -f2 | xargs -I % ./genTest.sh %
+    else
+        echo "ERROR: No modified python scripts found in probs/ .."
+    fi
 else
     echo "ERROR: Please input filename as first argument .."
 fi
