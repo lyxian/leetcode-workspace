@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 728. Self Dividing Numbers
 ├─ 11. Container With Most Water
 ├─ 1324. Print Words Vertically
 ├─ 22. Generate Parentheses
