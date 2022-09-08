@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 263. Ugly Number
 ├─ 1137. N-th Tribonacci Number
 ├─ 728. Self Dividing Numbers
 ├─ 11. Container With Most Water
