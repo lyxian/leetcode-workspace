@@ -1,5 +1,7 @@
 # Given an integer n, return the number of prime numbers that are strictly less than n.
 
+FASTER = True
+
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n <= 2:
@@ -35,9 +37,12 @@ class Solution:
                 start += 1
                 i = 2
                 if primes[start-2]:
-                    while start*i < n:
-                        primes[start*i-2] = 0
-                        i += 1
+                    if FASTER:
+                        primes[start*start-2:n:start] = [0] * len(primes[start*start-2:n:start])
+                    else:
+                        while start*i < n:
+                            primes[start*i-2] = 0
+                            i += 1
             return sum(primes)
             # return [x[0] for x in enumerate(primes, start=2) if x[1]]
 
