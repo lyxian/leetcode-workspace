@@ -20,8 +20,10 @@ if [ $# -eq 1 ]; then
         echo -ne "\n        pass\n\nif __name__ == '__main__':\n    pass" >> tmp
 
         mv tmp probs/$name.py
+        ./genTest.sh
         if [[ `echo $(which code)` ]]; then
             code probs/$name.py
+            code tests/test_$name.py
         fi
     fi
 else
