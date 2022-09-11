@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 279. Perfect Squares
 ├─ 204. Count Primes
 ├─ 263. Ugly Number
 ├─ 1137. N-th Tribonacci Number
