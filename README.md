@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 1680. Concatenation of Consecutive Binary Numbers
 ├─ 279. Perfect Squares
 ├─ 204. Count Primes
 ├─ 263. Ugly Number
