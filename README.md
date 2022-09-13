@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 2001. Number of Pairs of Interchangeable Rectangles
 ├─ 38. Count and Say
 ├─ 1680. Concatenation of Consecutive Binary Numbers
 ├─ 279. Perfect Squares
