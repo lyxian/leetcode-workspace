@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 38. Count and Say
 ├─ 1680. Concatenation of Consecutive Binary Numbers
 ├─ 279. Perfect Squares
 ├─ 204. Count Primes
