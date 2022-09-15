@@ -19,6 +19,7 @@ Directory
 ```
 Done (recent -> first)
 ├─ ..
+├─ 1457. Pseudo-Palindromic Paths in a Binary Tree
 ├─ 2001. Number of Pairs of Interchangeable Rectangles
 ├─ 38. Count and Say
 ├─ 1680. Concatenation of Consecutive Binary Numbers
