@@ -17,7 +17,7 @@ Directory
 ```
 
 ```
-Done (recent -> first)
+Done @ Leetcode (recent -> first)
 ├─ ..
 ├─ 36. Valid Sudoku
 ├─ 17. Letter Combinations of a Phone Number
@@ -37,6 +37,12 @@ Done (recent -> first)
 ├─ 20. Valid Parentheses
 ├─ 2337. Move Pieces to Obtain a String
 └─ 6. Zigzag Conversion
+```
+
+```
+Done @ Others (recent -> first)
+├─ ..
+└─ Minimum Swaps to Sort
 ```
 
 ##Packages (list required packages & run .scripts/python-pip.sh)
