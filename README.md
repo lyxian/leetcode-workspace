@@ -19,6 +19,7 @@ Directory
 ```
 Done @ Leetcode (recent -> first)
 ├─ ..
+├─ 55. Jump Game
 ├─ 36. Valid Sudoku
 ├─ 17. Letter Combinations of a Phone Number
 ├─ 1143. Longest Common Subsequence
