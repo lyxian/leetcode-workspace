@@ -3,7 +3,7 @@
 Features :
 
 - write problem class
-- generate test script easily (given template)
+- generate test script easily (given template and description.txt)
 
 ```
 Directory
