@@ -19,6 +19,7 @@ Directory
 ```
 Done @ Leetcode (recent -> first)
 ├─ ..
+├─ 1937. Maximum Number of Points with Cost (DP, Array)
 ├─ 62. Unique Paths (Recursion, Memoization)
 ├─ 55. Jump Game (DP)
 ├─ 36. Valid Sudoku (Array)
