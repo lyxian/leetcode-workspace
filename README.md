@@ -19,6 +19,7 @@ Directory
 ```
 Done @ Leetcode (recent -> first)
 ├─ ..
+├─ 2212. Maximum Points in an Archery Competition (Array, Recursion)
 ├─ 79. Word Search (DFS, Backtracking)
 ├─ 61. Rotate List (Linked List, Pointers)
 ├─ 1937. Maximum Number of Points with Cost (DP, Array)
