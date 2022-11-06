@@ -19,6 +19,7 @@ Directory
 ```
 Done @ Leetcode (recent -> first)
 ├─ ..
+├─ 79. Word Search (DFS, Backtracking)
 ├─ 61. Rotate List (Linked List, Pointers)
 ├─ 1937. Maximum Number of Points with Cost (DP, Array)
 ├─ 62. Unique Paths (Recursion, Memoization)
